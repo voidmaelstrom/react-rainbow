@@ -10,12 +10,6 @@ function App(){
         'greenyellow', 'yellow',
         'orange', 'red'
     ])
-    
-    // let colorMap = colors.map((color, i) => {
-    //     return (
-    //         <ColorBlock color={color} />
-    //     )
-    // })
 
     const addColor = (newColor) => {
         setColors([...colors, newColor])
